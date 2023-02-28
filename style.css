@@ -102,8 +102,11 @@ body{
 #btn-ok:hover{
     background-color: var(--color-green2);
 }
-@media(max-width:597px) {
+@media(max-width:454px) {
     #input-new-task {
-        width: 8rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+
     }
 }
